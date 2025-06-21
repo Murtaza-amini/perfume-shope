@@ -247,7 +247,7 @@ main {
                 /* ____End_of_______drop-menu of FOQ____number_one______________________________ */
             }
             >div {
-                min-width: 100px;
+                width: 200;
                 position: relative;
                 >span {
                     display: flex;
@@ -294,4 +294,85 @@ main {
         }
         /* ____________End of header section of website__________________________________________ */
     }
+    /* _____start of_____row-of-content_____________________________________ */
+    .row-of-content {
+        width: 90%;
+        min-height: 600px;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        >figure {
+            width: 50%;
+            height: 100%;
+            >img {
+                height: 80%;
+            }
+        }
+        >article {
+            width: 50%;
+            height: 100%;
+            align-content: flex-start;
+            position: relative;
+            >h4 {
+                width: 100%;
+                font-family: cursive;
+                color: var(--text-black);
+                font-size: 50px;
+                margin-top: 40px;
+            }
+            >h3 {
+                width: 100%;
+                font-family: cursive;
+                color: var(--text-brown);
+                font-size: 50px;
+                margin-top: 10px;
+            }
+            >p {
+                width: 100%;
+                color: var(--text-gray);
+                font-family: cursive;
+                font-size: 19px;
+                margin-top: 20px;
+                padding-inline: 10px;
+            }
+            >a {
+                padding: 12px 20px;
+                margin-top: 20px;
+                margin-inline: 20px;
+                &:nth-of-type(1) {
+                    text-transform: uppercase;
+                    font-size: 13px;
+                    color: var(--text-white);
+                    background-color: var(--text-brown);
+                    font-family: fantasy;
+                }
+                &:nth-of-type(2) {
+                    text-transform: uppercase;
+                    font-size: 13px;
+                    color: var(--text-white);
+                    background-color: var(--text-black);
+                    font-family: fantas;
+                    >i {
+                        font-size: 18px;
+                        color: var(--text-white);
+                        padding-inline: 10px;
+                    }
+                }
+            }
+            >h6 {
+                color: var(--text-gray);
+                font-size: 17px;
+                margin-top: 10px;
+            }
+            >span {
+                display: block;
+                font-size: 25px;
+                color: var(--text-black);
+                position: absolute;
+                right: 39%;
+                bottom: 41%;
+            }
+        }
+    }
+    /* _____End of_____row-of-content_____________________________________ */
 }
